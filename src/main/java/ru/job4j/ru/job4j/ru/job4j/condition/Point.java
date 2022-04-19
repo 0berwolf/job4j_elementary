@@ -3,14 +3,10 @@ package ru.job4j.ru.job4j.ru.job4j.condition;
 public class Point {
 
     public static double distance(int x1, int y1, int x2, int y2) {
-        double rsl = -1;
         double x = x2 - x1;
         double y = y2 - y1;
-        double one = Math.pow(x, 2);
-        double two = Math.pow(y, 2);
-        double three = one + two;
-        double four = Math.sqrt(three);
-        return four;
+        double d = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+        return d;
     }
 
     public static void main(String[] args) {
