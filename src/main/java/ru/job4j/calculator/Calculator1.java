@@ -9,11 +9,11 @@ public class Calculator1 {
     }
 
     public static double sum1(double first, double second) {
-        return mns(first, second) + delenie(first, second);
+        return mns(first, second) + del(first, second);
     }
 
     public static double sum2(double first, double second) {
-        return sum(first, second) + multiply(first, second) + mns(first, second) + delenie(first, second);
+        return sum(first, second) + multiply(first, second) + mns(first, second) + del(first, second);
     }
 
     public static void main(String[] args) {
