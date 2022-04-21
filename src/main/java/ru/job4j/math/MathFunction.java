@@ -11,10 +11,12 @@ public class MathFunction {
     }
 
     public static double mns(double first, double second) {
+
         return first - second;
     }
 
     public static double del(double first, double second) {
+
         return first / second;
     }
 

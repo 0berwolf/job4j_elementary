@@ -13,7 +13,8 @@ public class Calculator1 {
     }
 
     public static double sum2(double first, double second) {
-        return sum(first, second) + multiply(first, second) + mns(first, second) + del(first, second);
+        return sum(first, second) + multiply(first, second)
+                + mns(first, second) + del(first, second);
     }
 
     public static void main(String[] args) {
