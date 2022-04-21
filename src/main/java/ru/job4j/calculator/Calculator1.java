@@ -18,9 +18,8 @@ public class Calculator1 {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчёта равен: " + sum1(23, 36));
+        System.out.println("Результат расчёта равен: " + sum1(36, 23));
         System.out.println("Результат расчёта равен: " + sum2(9, 18));
-
     }
 
 }
