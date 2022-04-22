@@ -39,8 +39,8 @@ public class PointTest {
     }
 
     @Test
-    public void when58to69then5() {
-        double expected = 5;
+    public void when58to69then4() {
+        double expected = 4.24;
         int x1 = 5;
         int y1 = 6;
         int x2 = 8;
