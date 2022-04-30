@@ -13,7 +13,7 @@ public class CounterNew {
         int sum = 0;
         for (sum = 0; start <= finish; start++) {
             if (start % 2 == 0) {
-                sum = sum + start;
+                sum = sum + i;
             }
         }
         return sum;
