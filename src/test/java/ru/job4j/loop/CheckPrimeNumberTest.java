@@ -20,9 +20,9 @@ public class CheckPrimeNumberTest {
     }
 
     @Test
-    public void when1() {
-        int number = 1;
+    public void when8() {
+        int number = 8;
         boolean result = CheckPrimeNumber.check(number);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
