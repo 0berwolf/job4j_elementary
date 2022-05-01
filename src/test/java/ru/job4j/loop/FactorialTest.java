@@ -3,8 +3,6 @@ package ru.job4j.loop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FactorialTest {
 
     @Test
@@ -25,6 +23,13 @@ public class FactorialTest {
     public void calcForSeven() {
         int result = Factorial.calc(7);
         int expected = 5040;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void calcForThree() {
+        int result = Factorial.calc(3);
+        int expected = 6;
         Assert.assertEquals(expected, result);
     }
 }
