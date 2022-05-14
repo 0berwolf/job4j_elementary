@@ -21,10 +21,10 @@ public class MatrixCheckTest {
     public void whenHasMonoHorizontal1() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {'X', 'X', 'X'},
                 {' ', ' ', ' '},
         };
-        int row = 0;
+        int row = 1;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
