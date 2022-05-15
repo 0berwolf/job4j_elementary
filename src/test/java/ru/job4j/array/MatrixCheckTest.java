@@ -21,7 +21,7 @@ public class MatrixCheckTest {
     public void whenHasMonoHorizontal1() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {'Х', 'Х', 'Х'},
+                {'Х', 'Х', ' '},
                 {' ', ' ', ' '},
         };
         int row = 1;
