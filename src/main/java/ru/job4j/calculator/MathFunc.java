@@ -1,7 +1,6 @@
-package ru.job4j.ru.job4j.calculator;
+package ru.job4j.calculator;
 
 public class MathFunc {
-
     public static int func1(int x) {
         int y1 = x * x + 1;
         return y1;
