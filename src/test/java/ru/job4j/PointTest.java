@@ -3,6 +3,9 @@ package ru.job4j;
 import org.junit.Assert;
 import org.junit.Test;
 import java.awt.*;
+
+import static org.junit.Assert.*;
+
 public class PointTest {
 
     @Test
@@ -11,7 +14,7 @@ public class PointTest {
         Point b = new Point(0, 2);
         double out = a.distance(b);
         double expected = 2.0;
-        Assert.assertEquals(expected, out, 0.01);
+        assertEquals(expected, out, 0.01);
     }
 
     @Test
@@ -20,7 +23,7 @@ public class PointTest {
         Point b = new Point(4, 2);
         double out = a.distance(b);
         double expected = 3.16;
-        Assert.assertEquals(expected, out, 0.01);
+        assertEquals(expected, out, 0.01);
     }
 
     @Test
@@ -29,7 +32,7 @@ public class PointTest {
         Point b = new Point(5, 5);
         double out = a.distance(b);
         double expected = 3.61;
-        Assert.assertEquals(expected, out, 0.01);
+        assertEquals(expected, out, 0.01);
     }
 
     @Test
@@ -38,6 +41,6 @@ public class PointTest {
         Point b = new Point(8, 9);
         double out = a.distance(b);
         double expected = 4.24;
-        Assert.assertEquals(expected, out, 0.01);
+        assertEquals(expected, out, 0.01);
     }
 }
